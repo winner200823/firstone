@@ -1,0 +1,21 @@
+.borderbottom{
+	position:relative;
+}
+@media (-webkit-min-device-pixel-ratio:1.5),(-min-device-pixel-ratio:1.5){
+	.borderbottom:after{
+		-webkit-transform:scaleY(0.7);
+		transform:scaleY(0.7);
+	}
+}
+@media (-webkit-min-device-pixel-ratio:2),(-min-device-pixel-ratio:2){
+	.borderbottom:after{
+		-webkit-transform:scaleY(0.5);
+		transform:scaleY(0.5);
+	}
+}
+.borderbottom:after{
+	position:absolute;
+	left:0;
+	width:100%;
+	content:'';
+}
