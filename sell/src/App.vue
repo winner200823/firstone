@@ -6,10 +6,10 @@
       <div class="tab-item"><a v-link="{path: '/ratings'}">评论</a></div>
       <div class="tab-item"><a v-link="{path: '/seller'}">相关</a></div>
     </div>
-    <router-view></router-view>
+    <router-view :seller="seller"></router-view>
   </div>
 </template>
-<script>
+<script type="text/ecmascript-6">
 import vheader from 'components/header/vheader';
 const ERR_OK = 0;
 export default{

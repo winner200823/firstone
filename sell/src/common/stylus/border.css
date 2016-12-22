@@ -13,6 +13,12 @@
 		transform:scaleY(0.5);
 	}
 }
+@media (-webkit-min-device-pixel-ratio:3),(-min-device-pixel-ratio:3){
+	.borderbottom:after{
+		-webkit-transform:scaleY(0.4);
+		transform:scaleY(0.4);
+	}
+}
 .borderbottom:after{
 	position:absolute;
 	left:0;
